@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace Kevin01.VISTA
 {
-    public partial class FrmMenu : Form
+    public partial class FrmAcercaDe : Form
     {
-        public FrmMenu()
+        public FrmAcercaDe()
         {
             InitializeComponent();
         }
 
-        private void FrmMenu_Load(object sender, EventArgs e)
+        private void FrmAcercaDe_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
