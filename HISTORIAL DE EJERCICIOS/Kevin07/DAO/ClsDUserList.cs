@@ -16,8 +16,9 @@ namespace Kevin01.DAO
             using (programacionEntities1 db = new programacionEntities1())
             {
                 Lista = db.UserList.ToList();
+              
 
-                
+               
             }
 
             return Lista;
@@ -39,7 +40,7 @@ namespace Kevin01.DAO
         //            db.SaveChanges();
         //            MessageBox.Show("SAVE");
         //        }
-        //    }
+        //    } 
         //    catch (Exception EX)
         //    {
         //        MessageBox.Show(EX.ToString());
