@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Kevin01.VISTA;
+using appventas.VISTA;
 
-namespace Kevin01
+namespace appventas
 {
     static class Program
     {
@@ -17,7 +17,7 @@ namespace Kevin01
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmMenu());
+            Application.Run(new FrmMenuVenta());
         }
     }
 }
